@@ -1,5 +1,6 @@
 import React from 'react';
 import Papaparse from 'papaparse';
+import { message, Button, Input } from 'antd';
 import { IPapaparserProps, IParseResult } from '../types';
 import { prefix } from '.';
 
@@ -43,20 +44,20 @@ const CSVParser = (props: IPapaparserProps) => {
 
   const errorHandler = (evt: any) => {
     if(evt.target.error.name === "NotReadableError") {
-      alert("Canno't read file !");
+      message.error("Canno't read file !");
     }
   }
 
   return (
-    <button className={prefix}>
+    <Button className={prefix} type="primary">
       {fileName ? fileName : title}
-      <input
+      <Input
         type="file"
         onChange={handleFile}
         accept=".csv"
         className='inputFile'
       />
-    </button>
+    </Button>
   )
 
 }
