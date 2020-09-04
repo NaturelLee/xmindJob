@@ -1,6 +1,8 @@
 # Xmind Job Application
 
 ## How to use
+This project is deployed on [Github pages](https://naturellee.github.io/xmindJob/)
+
 ```shell
 # In xmindJob dir
 # nodejs and npm should be installed first!
