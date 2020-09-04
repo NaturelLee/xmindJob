@@ -114,7 +114,7 @@ function App() {
         || !fields.includes('type')
         || fields.length !== 3
       ){
-        message.warn(`${categoryFileName} is not categories.csv, please choose categories.csv`);
+        message.warn(`This is not categories.csv, please choose categories.csv`);
         setCategoryFileName('');
         return;
       }
@@ -155,7 +155,7 @@ function App() {
         || !fields.includes('type')
         || fields.length !== 4
       ){
-        message.warn(`${billFileName} is not bill.csv, please choose bill.csv`);
+        message.warn(`This is not bill.csv, please choose bill.csv`);
         setBillFileName('');
         return;
       }
