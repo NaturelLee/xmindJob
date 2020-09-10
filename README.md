@@ -22,6 +22,10 @@ yarn start
 
 ```
 
+Click the buttons to upload CSV files to parse.
+
+
+
 ## Thoughts of Implementation
 
 ### 1. Download CSV Files From Github;
