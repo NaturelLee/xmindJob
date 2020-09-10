@@ -23,8 +23,7 @@ yarn start
 ```
 
 Click the buttons to upload CSV files to parse.
-
-
+![bill parsed](https://github.com/NaturelLee/xmindJob/blob/master/public/bill_parsed.png)
 
 ## Thoughts of Implementation
 
